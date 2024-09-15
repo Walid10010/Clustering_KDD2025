@@ -230,7 +230,7 @@ def collectLabels():
     return np.array(y_label).reshape(-1)
 
 
-def CBLH_Start(X, k=None):
+def CLUMPED_Start(X, k=None):
     if k == None: k = 20
     global ind_to_name, name_to_dPoint, name_to_label, label_counter, data_matrix
     ind_to_name = {}

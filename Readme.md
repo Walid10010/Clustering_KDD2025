@@ -1,6 +1,6 @@
 # CLBH
 
- Python implementation of [CLBH] algorithm. 
+ Python implementation of [CLUMPED] algorithm. 
 
 
 ## Environment

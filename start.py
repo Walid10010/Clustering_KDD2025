@@ -1,4 +1,4 @@
-from CBLHALGO import CBLH_Start, compare_mod
+from CLUMPED_Algo import CLUMPED_Start, compare_mod
 from sklearn.metrics import adjusted_mutual_info_score,normalized_mutual_info_score
 import  numpy as np
 
@@ -26,5 +26,5 @@ X, Y = np.loadtxt('data/Intro/SyntheticIntroData'), np.loadtxt('data/Intro/Synth
 X, Y= preporcess_Data(X, Y)
 
 
-y_pred = CBLH_Start(X)  # r
+y_pred = CLUMPED_Start(X)  # r
 print('AMI:', normalized_mutual_info_score(Y, y_pred))
