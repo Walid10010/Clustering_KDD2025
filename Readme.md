@@ -1,4 +1,4 @@
-# CLBH
+# CLUMPED
 
  Python implementation of [CLUMPED] algorithm. 
 
