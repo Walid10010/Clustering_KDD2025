@@ -15,11 +15,17 @@ The artifical dataset used in paper can be found in the  data folder.
 
 Code for competing methods:
 DBSCAN, HDBSCAN  and OPTICS [https://scikit-learn.org/stable/modules/clustering.html]
+
 DenMune [https://github.com/scikit-learn-contrib/denmune-clustering-algorithm]
+
 SNN-DPC [https://github.com/liurui39660/SNNDPC]
+
 DPC-DBPN [https://github.com/abdulrahmanlotfi/DPC-DBFN]
+
 R-MDPC [https://github.com/Guanjunyi/R-MDPC]
+
 DEC, IDEC, DipDECK [https://github.com/collinleiber/ClustPy/tree/main]
+
 
 ### External  Dataset
 The external dataset used in the experiment can be obtained from {https://github.com/deric/clustering-benchmark,
